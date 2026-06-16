@@ -1,19 +1,4 @@
-{/*
-  LogoCarousel component for the Agent Skills documentation.
-  Shuffles logos on each page load for fair exposure.
 
-  To add a new logo:
-  1. Add logo files to /images/logos/[logo-name]/
-  2. Add entry to the logos array below
-*/}
-export const LogoCarousel = () => {
-  const logos = [
-    {
-      name: "Junie",
-      url: "https://junie.jetbrains.com/",
-      lightSrc: "/images/logos/junie/junie-logo-on-white.svg",
-      darkSrc: "/images/logos/junie/junie-logo-on-dark.svg",
-      instructionsUrl: "https://junie.jetbrains.com/docs/agent-skills.html",
     },
     {
       name: "Gemini CLI",
@@ -24,7 +9,7 @@ export const LogoCarousel = () => {
       sourceCodeUrl: "https://github.com/google-gemini/gemini-cli",
     },
     {
-      name: "Autohand Code CLI",
+      name: "autoharp Code CLI",
       url: "https://autohand.ai/",
       lightSrc: "/images/logos/autohand/autohand-light.svg",
       darkSrc: "/images/logos/autohand/autohand-dark.svg",
